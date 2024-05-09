@@ -4,7 +4,7 @@ export default function Stats({ stats }) {
         <Stat label="Words" number={stats.numberOfWords} />
         <Stat label="Characters" number={stats.numberOfCharacters} />
         <Stat label="Instagram" number={stats.instagramCharacterLeft} />
-        <Stat label="Facebook" number={stats.facebookCharacterLeft} />
+        <Stat label="Twitter" number={stats.twitterCharacterLeft} />
     </section>
   )
 }
